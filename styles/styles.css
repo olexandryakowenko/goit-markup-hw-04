@@ -34,6 +34,13 @@ html {
 *::before {
   box-sizing: inherit;
 }
+body {
+  color: var(--primary-text-color);
+
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
 
 img {
   display: block;
@@ -52,6 +59,7 @@ p {
 
 .section {
   padding-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .container {
@@ -68,15 +76,10 @@ p {
   list-style: none;
 }
 
-body {
-  background-color: var(--bg-color);
+.link{
+  text-decoration: none;
   color: var(--primary-text-color);
-
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  letter-spacing: 0.03em;
 }
-
 
 /* HEADER */
 
@@ -97,7 +100,7 @@ body {
 .top .logo {
   padding-top: 25px;
   padding-bottom: 25px;
-  margin-right: 93px;
+  margin-right: 94px;
 }
 
 .logo {
@@ -148,9 +151,22 @@ body {
 
 .nav-link,
 .top .contact-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+.icon-envelope,
+.icon-smartphone {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.icon-envelope:hover,
+.icon-smartphone:hover {
+  fill: currentColor;
 }
 
 /* HERO */
