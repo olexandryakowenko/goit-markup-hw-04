@@ -1,17 +1,22 @@
 :root {
-  --accent-color: #2196f3;
+   --accent-color: #2196f3;
   --header-logo-studio-color: #000000;
   --footer-logo-studio-color: #ffffff;
 
   --primary-text-color: #757575;
   --secondary-text-color: #ffffff;
+
   --nav-link-text-color: #212121;
+
   --primary-title-color: #212121;
   --secondary-title-color: #ffffff;
+
+  --icons-color: #afb1b8;
 
   --bg-site-color: #f5f5f5;
   --bg-footer-color: #2f303a;
   --bg-hero-color: #c4c4c4;
+  --bg-features-icon-color: #f5f4fa;
   --bg-team-section-color: #f5f4fa;
   --bg-team-card-color: #ffffff;
 
@@ -75,12 +80,10 @@ p {
 
   list-style: none;
 }
-
 .link{
   text-decoration: none;
   color: var(--primary-text-color);
 }
-
 /* HEADER */
 
 .top {
@@ -129,7 +132,6 @@ p {
   padding-bottom: 32px;
 
   color: var(--nav-link-text-color);
-  text-decoration: none;
 }
 .nav-link.current {
   color: var(--accent-color);
@@ -142,11 +144,11 @@ p {
 }
 
 .top .contact-link {
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
 
   color: var(--primary-text-color);
-  text-decoration: none;
 }
 
 .nav-link,
@@ -245,6 +247,7 @@ p {
   font-size: var(--features-font-size);
   line-height: 1.14;
   text-transform: uppercase;
+  text-align: center;
 
   color: var(--primary-title-color);
 }
@@ -253,6 +256,16 @@ p {
   font-size: var(--features-font-size);
   line-height: 1.71;
 }
+.icon-thumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  background-color: var(--bg-features-icon-color);
+}
+
 
 /*  WORK  */
 
@@ -314,6 +327,36 @@ p {
 .team-text {
   font-size: var(--team-font-size);
   line-height: 1.19;
+}
+.team-text {
+  margin-bottom: 16px;
+}
+.social-links-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-color);
+}
+
+.social-icon {
+  fill: var(--icons-color);
+}
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
+  fill: #ffffff;
 }
 
 /*  FOOTER */
