@@ -1,5 +1,5 @@
 :root {
-   --accent-color: #2196f3;
+  --accent-color: #2196f3;
   --header-logo-studio-color: #000000;
   --footer-logo-studio-color: #ffffff;
 
@@ -80,7 +80,7 @@ p {
 
   list-style: none;
 }
-.link{
+.link {
   text-decoration: none;
   color: var(--primary-text-color);
 }
@@ -272,7 +272,6 @@ p {
   background-color: var(--bg-features-icon-color);
 }
 
-
 /*  WORK  */
 
 .section-title {
@@ -460,7 +459,9 @@ p {
 .join .social-link:focus {
   background-color: var(--accent-color);
 }
-
+.footer-icon {
+  fill: #ffffff;
+}
 /*  hover & focus  */
 
 .logo:focus,
@@ -511,11 +512,9 @@ p {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-
 .btn-filter.current {
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
-  
 }
 
 /* Examples*/
@@ -524,8 +523,6 @@ p {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  
-
 }
 
 .examples-list-item {
@@ -540,7 +537,6 @@ p {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
 
 .examples .card-description {
   padding: 20px 24px;
