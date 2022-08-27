@@ -63,7 +63,7 @@ p {
 }
 
 .section {
-  padding-bottom: 94px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -173,9 +173,9 @@ p {
 
 /* HERO */
 
-.features.section {
+/* .features.section {
   padding-top: 94px;
-}
+} */
 .hero {
   text-align: center;
   padding-top: 200px;
