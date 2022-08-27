@@ -26,19 +26,23 @@
         <nav class="nav">
           <a class="logo" href="./index.html">Web<span class="top-logo-studio">Studio</span></a>
           <ul class="nav-list list">
-            <li class="nav-list-item"><a class="nav-link" href="./index.html">Студія</a></li>
+            <li class="nav-list-item"><a class="nav-link link" href="./index.html">Студія</a></li>
             <li class="nav-list-item">
-              <a class="nav-link current" href="./portfolio.html">Портфоліо</a>
+              <a class="nav-link link current" href="./portfolio.html">Портфоліо</a>
             </li>
-            <li class="nav-list-item"><a class="nav-link" href="">Контакти</a></li>
+            <li class="nav-list-item"><a class="nav-link link" href="">Контакти</a></li>
           </ul>
         </nav>
         <ul class="contact-list list">
           <li class="contact-list-item">
-            <a class="contact-link" href="mailto:info@devstudi.com">info@devstudio.com</a>
+            <a class="contact-link link" href="mailto:info@devstudi.com"><svg class="icon-envelope" width="16px" height="12px">
+                <use href="./images/sprite.svg#icon-envelope"></use>
+              </svg>info@devstudio.com</a>
           </li>
           <li class="contact-list-item">
-            <a class="contact-link" href="tel:80961111111">+38096 111 11 11</a>
+            <a class="contact-link link" href="tel:80961111111"><svg class="icon-smartphone" width="10px" height="16px">
+                <use href="./images/sprite.svg#icon-smartphone"></use>
+              </svg>+38096 111 11 11</a>
           </li>
         </ul>
       </div>
@@ -75,6 +79,7 @@
 
           <ul class="list examples-list">
             <li class="examples-list-item">
+              <a class="example-link link" href="">
               <img
                 src="./images/portfolio/portfjlio-1.jpg"
                 alt="Ноутбук з відкритим сайтом"
@@ -85,8 +90,10 @@
                 <h3 class="portfolio-title">Технокряк</h3>
                 <p class="portfolio-text">Веб-сайт</p>
               </div>
+              </a>
             </li>
             <li class="examples-list-item">
+              <a class="example-link link" href="">
               <img
                 src="./images/portfolio/portfjlio-2.jpg"
                 alt="Баскетболісти з м'ячем"
@@ -97,8 +104,10 @@
                 <h3 class="portfolio-title">Постер New Orlean vs Golden Star</h3>
                 <p class="portfolio-text">Дизайн</p>
               </div>
+              </a>
             </li>
             <li class="examples-list-item">
+              <a class="example-link link" href="">
               <img
                 src="./images/portfolio/portfjlio-3.jpg"
                 alt="Логотип ресторану"
@@ -109,15 +118,19 @@
                 <h3 class="portfolio-title">Ресторан Seafood</h3>
                 <p class="portfolio-text">Додаток</p>
               </div>
+              </a>
             </li>
             <li class="examples-list-item">
+              <a class="example-link link" href="">
               <img src="./images/portfolio/portfjlio-4.jpg" alt="Навушники" width="370" height="294" />
               <div class="card-description">
                 <h3 class="portfolio-title">Проєкт Prime</h3>
                 <p class="portfolio-text">Маркетинг</p>
               </div>
+              </a>
             </li>
             <li class="examples-list-item">
+              <a class="example-link link" href="">
               <img
                 src="./images/portfolio/portfjlio-5.jpg"
                 alt="Картонні коробки"
@@ -128,8 +141,10 @@
                 <h3 class="portfolio-title">Проєкт Boxes</h3>
                 <p class="portfolio-text">Додаток</p>
               </div>
+              </a>
             </li>
             <li class="examples-list-item">
+              <a class="example-link link" href="">
               <img
                 src="./images/portfolio/portfjlio-6.jpg"
                 alt="Монітор із відкритим сайтом"
@@ -140,8 +155,10 @@
                 <h3 class="portfolio-title">Inspiration has no Borders</h3>
                 <p class="portfolio-text">Веб-сайт</p>
               </div>
+              </a>
             </li>
             <li class="examples-list-item">
+              <a class="example-link link" href="">
               <img
                 src="./images/portfolio/portfjlio-7.jpg"
                 alt="Відкрита книга"
@@ -152,8 +169,10 @@
                 <h3 class="portfolio-title">Видання Limited Edition</h3>
                 <p class="portfolio-text">Дизайн</p>
               </div>
+              </a>
             </li>
             <li class="examples-list-item">
+              <a class="example-link link" href="">
               <img
                 src="./images/portfolio/portfjlio-8.jpg"
                 alt="Маркувальна бірка"
@@ -164,8 +183,10 @@
                 <h3 class="portfolio-title">Проєкт LAB</h3>
                 <p class="portfolio-text">Маркетинг</p>
               </div>
+              </a>
             </li>
             <li class="examples-list-item">
+              <a class="example-link link" href="">
               <img
                 src="./images/portfolio/portfjlio-9.jpg"
                 alt="Робота з ноутбуком"
@@ -176,6 +197,7 @@
                 <h3 class="portfolio-title">Growing Business</h3>
                 <p class="portfolio-text">Додаток</p>
               </div>
+              </a>
             </li>
           </ul>
         </div>
@@ -183,28 +205,67 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bottom">
+     <footer class="footer">
       <div class="container">
-        <a class="logo" href="./index.html">Web<span class="bottom-logo-studio">Studio</span></a>
-        <address>
-          <ul class="address-contact list">
-            <li class="address-list-item">
-              <a
-                class="address-link"
-                href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                >м. Київ, пр-т Лесі Українки, 26</a
-              >
+        <div class="addres-container">
+          <a class="logo link" href="./index.html"
+            >Web<span class="footer-logo-studio">Studio</span></a
+          >
+          <address>
+            <ul class="address-contact list">
+              <li class="address-list-item">
+                <a
+                  class="address-link link"
+                  href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  >м. Київ, пр-т Лесі Українки, 26</a
+                >
+              </li>
+              <li class="address-list-item">
+                <a class="contact-link link" href="mailto::info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="address-list-item">
+                <a class="contact-link link" href="tel:380961111111">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="join">
+          <h2 class="join-title">Приєднуйтесь</h2>
+          <ul class="social-links-list list">
+            <li class="social-list-item">
+              <a href="#" class="social-link link">
+                <svg class="social-icon" width="20px" height="20px">
+                  <use href="./images/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="address-list-item">
-              <a class="contact-link" href="mailto::info@devstudio.com">info@devstudio.com</a>
+            <li class="social-list-item">
+              <a href="" class="social-link link">
+                <svg class="social-icon" width="20px" height="20px">
+                  <use href="./images/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
             </li>
-            <li class="address-list-item">
-              <a class="contact-link" href="tel:380961111111">+38 096 111 11 11</a>
+            <li class="social-list-item">
+              <a href="" class="social-link link">
+                <svg class="social-icon" width="20px" height="20px">
+                  <use href="./images/sprite.svg#icon-f"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="" class="social-link link">
+                <svg class="social-icon" width="20px" height="20px">
+                  <use href="./images/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
