@@ -173,9 +173,9 @@ p {
 
 /* HERO */
 
-/* .features.section {
+.features.section { 
   padding-top: 94px;
-} */
+} 
 .hero {
   text-align: center;
   padding-top: 200px;
@@ -285,6 +285,9 @@ p {
 .work .section-title {
   margin-bottom: 50px;
 }
+.work {
+  padding-top: 0;
+}
 
 .work-list {
   display: flex;
@@ -300,7 +303,7 @@ p {
 }
 
 .team .section-title {
-  padding-top: 94px;
+  padding-top: 0;
   margin-bottom: 50px;
 }
 .team-list {
